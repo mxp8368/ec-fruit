@@ -1,0 +1,82 @@
+section {
+    margin-bottom: 20px;
+    border-top: solid 1px;
+}
+
+table {
+    width: 660px;
+    border-collapse: collapse;
+}
+
+table, tr, th, td {
+    border: solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    text-align: left;
+}
+
+.text_align_right {
+    text-align: right;
+}
+
+.drink_name_width {
+    width: 100px;
+}
+
+.input_text_width {
+    width: 60px;
+}
+
+.status_false {
+    background-color: #A9A9A9;
+}
+
+img {
+    width: 200px;
+}
+
+/* common -------------------------------------------- */
+.success_msg {
+  color: #0000FF;
+}
+
+.err_msg {
+  color: #FF0000;
+}
+
+header {
+  height: 60px;
+  background-color: #045916;
+}
+
+.header_box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.logo {
+  float: left;
+  display:block;
+  font-size:40px;
+  color:white;
+  margin: auto;
+}
+
+.cart {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/cart_icon.png") no-repeat;
+  background-size: 40px;
+}
+
+.content {
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 960px;
+}

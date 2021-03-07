@@ -1,0 +1,287 @@
+/* reset -------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* register ------------------------------------------ */
+.register {
+  margin-top: 50px;
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 400px;
+}
+
+.login_link {
+  margin-top: 30px;
+}
+
+/* login -------------------------------------------- */
+.login {
+  margin-top: 50px;
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 400px;
+}
+
+.account_create {
+  margin-top: 30px;
+}
+
+/* top ------------------------------------------------ */
+
+.item_list li {
+  float:left;
+  margin-top: 20px;
+  margin-left: 20px;
+  width:300px;
+  list-style-type: none;
+}
+
+.item_list .item {
+  text-align: center;
+}
+
+.item_img {
+  max-width: 100%;
+}
+
+.item_list .item_img{
+  width: 300px;
+}
+
+.item_list .item_info{
+  margin-top: 5px;
+}
+
+.item_list .item_name {
+  float:left;
+}
+
+.item_list .item_price {
+  display:block;
+  float:right;
+}
+
+.item_list .cart_btn {
+  display:block;
+  clear:both;
+  margin:0 auto;
+  width:160px;
+  height:40px;
+  color: #ffffff;
+  font-size: 100%;
+  background-color: #00A7F7;
+  border:none;
+}
+
+.item_list .sold-out{
+  clear:both;
+  height:40px;
+  color: #FF0000;
+  font-size: 1.2em;
+}
+
+.red {
+  color: #FF0000;
+}
+
+/* cart-------------------------------------------- */
+
+.title {
+  margin-top: 20px;
+  font-size: 1.4em;
+}
+
+.cart_list_title {
+  clear:both;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart_list_title .cart_list_price{
+  margin-left: 700px;
+}
+
+.cart_list_title .cart_list_num {
+  margin-left: 150px;
+}
+
+.cart_list .cart_item {
+  clear:both;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart_list .cart_item_img{
+  width:120px;
+}
+
+.cart_list .cart_item_name{
+  position: absolute;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.cart_item_del{
+  display: inline;
+  position: absolute;
+  margin-left: 470px;
+}
+
+.cart_list .cart_item_price {
+  position: absolute;
+  margin-left: 560px;
+  color: #FF0000;
+}
+
+.cart_list .form_selected_amount {
+  float: right;
+  margin-left: 50px;
+}
+
+.cart_list .cart_item_num {
+  width:100px;
+  height:30px;
+  font-size: 1.2em;
+}
+
+.cart_list .cart_item_num2 {
+    width: 50px;
+}
+
+.buy_sum_box{
+  clear:both;
+  margin-top: 10px;
+}
+
+.buy_sum_box .buy_sum_title{
+  margin-left: 620px;
+}
+
+.buy_sum_box .buy_sum_price{
+  margin-left: 30px;
+  font-size: 2em;
+  color: #FF0000;
+}
+
+.buy_btn {
+  display:block;
+  margin-top: 10px;
+  width:100%;
+  height:60px;
+  color: #ffffff;
+  background-color: #FF8A00;
+  font-size: 1.4em;
+  border:none;
+}
+
+/* check_out page -------------------------------------------- */
+
+.finish_msg{
+  margin-top: 20px;
+  height:60px;
+  font-size: 1.4em;
+  text-align: center;
+  line-height:60px;
+  background-color: #FFF2DC;
+}
+
+.finish_item_price {
+  position: absolute;
+  margin-left: 800px;
+}
+
+/* common -------------------------------------------- */
+.success_msg {
+  color: #0000FF;
+}
+
+.err_msg {
+  color: #FF0000;
+}
+
+header {
+  height: 60px;
+  background-color: #045916;
+}
+
+.header_box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.logo {
+  float: left;
+  display:block;
+  font-size:40px;
+  color:white;
+  margin: auto;
+}
+
+.nemu {
+  float: right;
+  display: block;
+  margin: 15px 0 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cart {
+  float: right;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("../images/cart_icon.png") no-repeat;
+  background-size: 50px;
+}
+
+a:link.nemu {
+  color: #ffffff;
+}
+
+a:visited.nemu  {
+  color: #ffffff;
+}
+
+.content {
+  margin-left : auto ;
+  margin-right : auto ;
+  width: 960px;
+}
+
